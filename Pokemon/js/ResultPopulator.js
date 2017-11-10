@@ -16,3 +16,4 @@ var pokemon={
     "about":""
   }
 };
+var pT=document.getElementById('pokemon');
