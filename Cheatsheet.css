@@ -1,0 +1,24 @@
+/*Element*/
+label {
+        font-family: ;
+}
+/*Class*/
+.c1 {
+
+}
+/*Id*/
+#id1{
+
+}
+/*Star*/
+*{
+        border: 1px solid gray;
+}
+/*Descendant*/
+form input{
+        font-style: oblique;
+}
+/*Adjacent*/
+
+
+/*Attribute Selector*/
