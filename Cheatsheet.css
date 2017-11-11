@@ -19,6 +19,15 @@ form input{
         font-style: oblique;
 }
 /*Adjacent*/
-
+table + div{
+        border: 2px solid black;
+}
 
 /*Attribute Selector*/
+input[value="None"]{
+        font-size: 60px;
+}
+/*nth of type*/
+option:nth-of-type(3){
+        color:red;
+}
