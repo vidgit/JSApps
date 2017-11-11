@@ -17,10 +17,20 @@ span{
 }
 /*font-weight*/
 p{
-        font-weight: bold;/*100 200 300 400 500 600 700 800*/
+        font-weight: 100;/*100 200 300 400 500 600 700 800*/
 }
 /*line-height*/
-
+p{
+        line-height: 2;
+}
 /*text-align*/
-
+h2{
+        text-align: center;
+}
 /*text-decoration*/
+h2{
+        text-decoration:underline;
+}
+span{
+        text-decoration:line-through; 
+}
