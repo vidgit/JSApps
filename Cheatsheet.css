@@ -31,3 +31,7 @@ input[value="None"]{
 option:nth-of-type(3){
         color:red;
 }
+
+/*If you apply an style to a parent it will apply to all the children nodes.*/
+/*If multiple styles are applied to an element then the most specific will be shown.*/
+/*Inline>ID>Class>Element*/
