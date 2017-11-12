@@ -5,6 +5,7 @@ p{
         /*Border*/
         border: 2px solid blue;
         /*Padding : Between Border and the content*/
-        padding:10px
-        /*Margins*/
+        padding-left:40px;
+        /*Margins :Outside border, between elements*/
+        margin:20px 40px 500px 100px; 
 }
