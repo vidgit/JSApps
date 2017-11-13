@@ -17,3 +17,9 @@ var pokemon={
   }
 };
 var pT=document.getElementById('pokemon');
+var tr1=pT.insertRow(0);
+var td1=tr1.insertCell(0);
+var td2=tr1.insertCell(1);
+var td3=tr1.insertCell(2);
+td1.innerHTML(pokemon["1"].name);
+td2.innerHTML(pokemon["2"].name);
