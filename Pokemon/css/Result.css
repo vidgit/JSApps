@@ -6,3 +6,7 @@ td{
   border:1px solid black;
   display: inline-block;
 }
+
+img{
+  display:inline-grid;
+}
