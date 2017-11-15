@@ -38,5 +38,5 @@ var td1=tr1.insertCell(0);
 var td2=tr1.insertCell(1);
 var td3=tr1.insertCell(2);
 td1.innerHTML="<img src="+pokemon["1"].img+">";
-td2.innerHTML="<img src="+pokemon["4"].img+">";
-td3.innerHTML="<img src="+pokemon["7"].img+">";
+td2.innerHTML="<img src="+pokemon["1"].img+">";
+td3.innerHTML="<img src="+pokemon["1"].img+">";
