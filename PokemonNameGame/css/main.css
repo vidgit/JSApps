@@ -1,0 +1,8 @@
+td{
+  min-width: 100px;
+  border:1px solid black;
+}
+
+.hide{
+  color: rgba(0,0,0,0);
+}

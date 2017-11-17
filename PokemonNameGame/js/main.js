@@ -8,3 +8,7 @@ var pokemonList={"bulbasaur":{"hidden":true},
                   "wartortle":{"hidden":true},
                   "blastoise":{"hidden":true}
                 };
+
+function checkInput(){
+  console.log("buttonworks");
+}
