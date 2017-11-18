@@ -1,5 +1,6 @@
 table{
         margin:20px;
+        text-align: center;
 }
 
 .text{
@@ -10,11 +11,15 @@ table{
 }
 
 td{
-  border:2px solid black;
   padding:20px;
   margin:30px;
 }
 
 .hide{
-  color: rgba(0,0,0,0);
+  visibility: hidden;
+}
+
+.water{
+        color:blue;
+        border:2px solid blue;
 }
