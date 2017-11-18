@@ -1,6 +1,18 @@
+table{
+        margin:20px;
+}
+
+.text{
+        margin:50px;
+        font-size: 30px;
+        min-width: 200px;
+        min-height: 100px;
+}
+
 td{
-  min-width: 100px;
-  border:1px solid black;
+  border:2px solid black;
+  padding:20px;
+  margin:30px;
 }
 
 .hide{
