@@ -6,7 +6,16 @@ var pokemonList={"bulbasaur":{"hidden":true},
                   "charizard":{"hidden":true},
                   "squirtle":{"hidden":true},
                   "wartortle":{"hidden":true},
-                  "blastoise":{"hidden":true}
+                  "blastoise":{"hidden":true},
+                  "caterpie":{"hidden":true},
+                  "metapod":{"hidden":true},
+                  "butterfree":{"hidden":true},
+                  "weedle":{"hidden":true},
+                  "kakuna":{"hidden":true},
+                  "beedrill":{"hidden":true},
+                  "pidgey":{"hidden":true},
+                  "pidgeotto":{"hidden":true},
+                  "pidgeot":{"hidden":true},
                 };
 
 function checkInput(){
