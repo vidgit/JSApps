@@ -10,12 +10,14 @@ var pokemonList={"bulbasaur":{"hidden":true},
                 };
 
 function checkInput(){
-  console.log("buttonworks");
+  //console.log("buttonworks");
   name=document.getElementById('pokemonName').value;
   for(var key in pokemonList){
     if(key==name && pokemonList[key].hidden){
       pokemon=document.getElementById(key);
       pokemon.classList.toggle("hide");
+      document.getElementById('pokemonName').value="";
     }
   }
+
 }
