@@ -16,6 +16,9 @@ var pokemonList={"bulbasaur":{"hidden":true},
                   "pidgey":{"hidden":true},
                   "pidgeotto":{"hidden":true},
                   "pidgeot":{"hidden":true},
+                  "rattata":{"hidden":true},
+                  "raticate":{"hidden":true},
+                  "":{"hidden":true},
                 };
 
 function checkInput(){

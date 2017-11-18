@@ -11,7 +11,7 @@ table{
 }
 
 td{
-  padding:20px;
+  padding:10px;
   margin:30px;
 }
 
@@ -20,6 +20,34 @@ td{
 }
 
 .water{
-        color:blue;
-        border:2px solid blue;
+        background-color: #7088C5;
+        border:2px solid white;
+        color:white;
+}
+
+.fire{
+        background-color:#F08030;
+        border:2px solid white;
+        color:white;
+}
+
+.grass{
+        background-color:#78C850;
+        border:2px solid white;
+        color:white;
+}
+
+.bug{
+        background-color: #A8B820;
+        border:2px solid white;
+        color:white;
+}
+.flying{
+        background-color: #705898;
+
+}
+.normal{
+        background-color: #A8A878;
+        border: 2px solid white;
+        color:white;
 }
