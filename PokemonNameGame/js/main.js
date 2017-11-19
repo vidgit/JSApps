@@ -44,3 +44,11 @@ function checkInput(){
   }
 
 }
+function showAll(){
+        for(var key in pokemonList){
+          if(pokemonList[key].hidden){
+            pokemon=document.getElementById(key);
+            pokemon.classList.toggle("hide");
+          }
+        }
+}
