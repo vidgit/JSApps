@@ -13,6 +13,8 @@ table{
 td{
   padding:10px;
   margin:30px;
+  border: 2px solid white;
+  color:white;
 }
 
 .hide{
@@ -21,33 +23,44 @@ td{
 
 .water{
         background-color: #7088C5;
-        border:2px solid white;
-        color:white;
 }
 
 .fire{
         background-color:#F08030;
-        border:2px solid white;
-        color:white;
 }
 
 .grass{
         background-color:#78C850;
-        border:2px solid white;
-        color:white;
 }
 
 .bug{
         background-color: #A8B820;
-        border:2px solid white;
-        color:white;
 }
+
 .flying{
         background-color: #705898;
-
 }
+
 .normal{
         background-color: #A8A878;
-        border: 2px solid white;
-        color:white;
+}
+
+.psychic{
+        background-color: #F85888;
+}
+
+.electric{
+        background-color: #DDAC4A;
+}
+
+.ghost{
+        background-color: #705898;
+}
+
+.fighting{
+        background-color: #C03028;
+}
+
+.ice{
+        background-color: #A4DFDB;
 }
