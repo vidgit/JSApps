@@ -3,17 +3,61 @@ var pokemonList={"bulbasaur":{
                       "type":"grass",
                       "name":"Bulbasaur"
                     },
-                  "ivysaur":{"hidden":true},
-                  "venusaur":{"hidden":true},
-                  "charmander":{"hidden":true},
-                  "charmeleon":{"hidden":true},
-                  "charizard":{"hidden":true},
-                  "squirtle":{"hidden":true},
-                  "wartortle":{"hidden":true},
-                  "blastoise":{"hidden":true},
-                  "caterpie":{"hidden":true},
-                  "metapod":{"hidden":true},
-                  "butterfree":{"hidden":true},
+                  "ivysaur":{
+                    "hidden":true,
+                    "type":"grass",
+                    "name":"Ivysaur"
+                  },
+                  "venusaur":{
+                    "hidden":true,
+                    "type":"grass",
+                    "name":"Venusaur"
+                  },
+                  "charmander":{
+                    "hidden":true,
+                    "type":"fire",
+                    "name":"Charmander"
+                  },
+                  "charmeleon":{
+                    "hidden":true,
+                    "type":"fire",
+                    "name":"Charmeleon"
+                  },
+                  "charizard":{
+                    "hidden":true,
+                    "type":"fire",
+                    "name":"Charizard"
+                  },
+                  "squirtle":{
+                    "hidden":true,
+                    "type":"water",
+                    "name":"Squirtle"
+                  },
+                  "wartortle":{
+                    "hidden":true,
+                    "type":"water",
+                    "name":"Wartortle"
+                  },
+                  "blastoise":{
+                    "hidden":true,
+                    "type":"water",
+                    "name":"Blastoise"
+                  },
+                  "caterpie":{
+                    "hidden":true,
+                    "type":"bug",
+                    "name":"caterpie"
+                  },
+                  "metapod":{
+                    "hidden":true,
+                    "type":"bug",
+                    "name":"Metapod"
+                  },
+                  "butterfree":{
+                    "hidden":true,
+                    "type":"bug flying",
+                    "name":"Butterfree"
+                  },
                   "weedle":{"hidden":true},
                   "kakuna":{"hidden":true},
                   "beedrill":{"hidden":true},
@@ -63,9 +107,11 @@ function showAll(){
 
 function addPokemon(){
   row=document.getElementById('testRow');
+  for(var key in pokemonList){
   var td=document.createElement("td");
-  td.setAttribute('class',pokemonList["nidoran m"].type);
-  td.setAttribute('id',"nidoran M");
+  td.setAttribute('class',pokemonList[key].type);
+  td.setAttribute('id',pokemonList[key].name);
   td.innerHTML="Nidoran M";
   row.appendChild(td);
+}
 }
