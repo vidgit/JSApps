@@ -29,6 +29,7 @@ var pokemonList={"bulbasaur":{"hidden":true},
                   "nidoran f":{"hidden":true},
                   "nidorina":{"hidden":true},
                   "nidoqueen":{"hidden":true},
+                  "nidoran m":{"hidden":true},
                   "":{"hidden":true},
                 };
 
