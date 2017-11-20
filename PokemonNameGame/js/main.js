@@ -1,4 +1,8 @@
-var pokemonList={"bulbasaur":{"hidden":true},
+var pokemonList={"bulbasaur":{
+                      "hidden":true,
+                      "type":"grass",
+                      "name":"Bulbasaur"
+                    },
                   "ivysaur":{"hidden":true},
                   "venusaur":{"hidden":true},
                   "charmander":{"hidden":true},
@@ -30,7 +34,7 @@ var pokemonList={"bulbasaur":{"hidden":true},
                   "nidorina":{"hidden":true},
                   "nidoqueen":{"hidden":true},
                   "nidoran m":{"hidden":true},
-                  "":{"hidden":true},
+                  "":{"hidden":true}
                 };
 
 function checkInput(){
@@ -52,4 +56,12 @@ function showAll(){
             pokemon.classList.toggle("hide");
           }
         }
+}
+
+function addPokemon(){
+  row=document.getElementById('testRow');
+  var td=document.createElement("td");
+  td.setAttribute('class',"hide "+pokemonList["bulbasaur"].type);
+  td.setAttribute('id',"bulbasaur");
+  row.appendChild(td);
 }
