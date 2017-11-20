@@ -33,7 +33,10 @@ var pokemonList={"bulbasaur":{
                   "nidoran f":{"hidden":true},
                   "nidorina":{"hidden":true},
                   "nidoqueen":{"hidden":true},
-                  "nidoran m":{"hidden":true},
+                  "nidoran m":{"hidden":true,
+                "type":"poison",
+                "name":"Nidoran M"
+              },
                   "":{"hidden":true}
                 };
 
@@ -61,7 +64,8 @@ function showAll(){
 function addPokemon(){
   row=document.getElementById('testRow');
   var td=document.createElement("td");
-  td.setAttribute('class',"hide "+pokemonList["bulbasaur"].type);
-  td.setAttribute('id',"bulbasaur");
+  td.setAttribute('class',pokemonList["nidoran m"].type);
+  td.setAttribute('id',"nidoran M");
+  td.innerHTML="Nidoran M";
   row.appendChild(td);
 }
