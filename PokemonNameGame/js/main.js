@@ -158,6 +158,36 @@ var pokemonList={"bulbasaur":{
                     "type":"poison",
                     "name":"Nidoran M"
                   },
+                  "nidorino":{
+                    "hidden":true,
+                    "type":"poison",
+                    "name":"Nidorino"
+                  },
+                  "nidoking":{
+                    "hidden":true,
+                    "type":"poison",
+                    "name":"Nidoking"
+                  },
+                  "clefairy":{
+                    "hidden":true,
+                    "type":"normal",
+                    "name":"Clefairy"
+                  },
+                  "clefable":{
+                    "hidden":true,
+                    "type":"normal",
+                    "name":"Clefable"
+                  },
+                  "vulpix":{
+                    "hidden":true,
+                    "type":"fire",
+                    "name":"Vulpix"
+                  },
+                  "ninetails":{
+                    "hidden":true,
+                    "type":"fire",
+                    "name":"Ninetails"
+                  }
                   /**"":{
                     "hidden":true,
                     "type":"",
