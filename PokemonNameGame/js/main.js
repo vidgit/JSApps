@@ -58,11 +58,31 @@ var pokemonList={"bulbasaur":{
                     "type":"bug flying",
                     "name":"Butterfree"
                   },
-                  "weedle":{"hidden":true},
-                  "kakuna":{"hidden":true},
-                  "beedrill":{"hidden":true},
-                  "pidgey":{"hidden":true},
-                  "pidgeotto":{"hidden":true},
+                  "weedle":{
+                    "hidden":true,
+                    "type":"bug",
+                    "name":"Weedle"
+                },
+                  "kakuna":{
+                    "hidden":true,
+                    "type":"bug",
+                    "name":"Kakuna"
+                  },
+                  "beedrill":{
+                    "hidden":true,
+                    "type":"bug flying",
+                    "name":"Beedrill"
+                  },
+                  "pidgey":{
+                    "hidden":true,
+                    "type":"flying",
+                    "name":"Pidgey"
+                  },
+                  "pidgeotto":{
+                    "hidden":true,
+                    "type":"flying",
+                    "name":"Pidgeotto"
+                  },
                   "pidgeot":{"hidden":true},
                   "rattata":{"hidden":true},
                   "raticate":{"hidden":true},
