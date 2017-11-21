@@ -158,11 +158,12 @@ var pokemonList={"bulbasaur":{
                     "type":"poison",
                     "name":"Nidoran M"
                   },
-                  "":{
+                  /**"":{
                     "hidden":true,
                     "type":"",
                     "name":""
                   }
+                  */
                 };
 
 function checkInput(){
@@ -189,11 +190,11 @@ function showAll(){
 function addPokemon(){
   var index=0;
   for(var key in pokemonList){
-    index=index%10;
+    index=index%16;
     row=document.getElementById('row'+index);
     var td=document.createElement("td");
-    td.setAttribute('class',pokemonList[key].type);
-    td.setAttribute('id',pokemonList[key].name);
+    td.setAttribute('class',"hide "+pokemonList[key].type);
+    td.setAttribute('id',key);
     td.innerHTML=pokemonList[key].name;
     row.appendChild(td);
     index++;
