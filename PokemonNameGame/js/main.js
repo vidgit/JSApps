@@ -46,7 +46,7 @@ var pokemonList={"bulbasaur":{
                   "caterpie":{
                     "hidden":true,
                     "type":"bug",
-                    "name":"caterpie"
+                    "name":"Caterpie"
                   },
                   "metapod":{
                     "hidden":true,
@@ -83,25 +83,86 @@ var pokemonList={"bulbasaur":{
                     "type":"flying",
                     "name":"Pidgeotto"
                   },
-                  "pidgeot":{"hidden":true},
-                  "rattata":{"hidden":true},
-                  "raticate":{"hidden":true},
-                  "spearow":{"hidden":true},
-                  "fearow":{"hidden":true},
-                  "ekans":{"hidden":true},
-                  "arbok":{"hidden":true},
-                  "pikachu":{"hidden":true},
-                  "raichu":{"hidden":true},
-                  "sandshrew":{"hidden":true},
-                  "sandslash":{"hidden":true},
-                  "nidoran f":{"hidden":true},
-                  "nidorina":{"hidden":true},
-                  "nidoqueen":{"hidden":true},
-                  "nidoran m":{"hidden":true,
-                "type":"poison",
-                "name":"Nidoran M"
-              },
-                  "":{"hidden":true}
+                  "pidgeot":{
+                    "hidden":true,
+                    "type":"flying",
+                    "name":"Pidgeot"
+                  },
+                  "rattata":{
+                    "hidden":true,
+                    "type":"normal",
+                    "name":"Rattata"
+                  },
+                  "raticate":{
+                    "hidden":true,
+                    "type":"normal",
+                    "name":"Raticate"
+                  },
+                  "spearow":{
+                    "hidden":true,
+                    "type":"flying",
+                    "name":"Spearow"
+                  },
+                  "fearow":{
+                    "hidden":true,
+                    "type":"flying",
+                    "name":"Fearow"
+                  },
+                  "ekans":{
+                    "hidden":true,
+                    "type":"poison",
+                    "name":"Ekans"
+                  },
+                  "arbok":{
+                    "hidden":true,
+                    "type":"poison",
+                    "name":"Arbok"
+                  },
+                  "pikachu":{
+                    "hidden":true,
+                    "type":"electric",
+                    "name":"Pikachu"
+                  },
+                  "raichu":{
+                    "hidden":true,
+                    "type":"electric",
+                    "name":"Raichu"
+                  },
+                  "sandshrew":{
+                    "hidden":true,
+                    "type":"ground",
+                    "name":"Sandshrew"
+                  },
+                  "sandslash":{
+                    "hidden":true,
+                    "type":"ground",
+                    "name":"Sandslash"
+                  },
+                  "nidoran f":{
+                    "hidden":true,
+                    "type":"poison",
+                    "name":"Nidoran F"
+                  },
+                  "nidorina":{
+                    "hidden":true,
+                    "type":"poison",
+                    "name":"Nidorina"
+                  },
+                  "nidoqueen":{
+                    "hidden":true,
+                    "type":"poison",
+                    "name":"Nidoqueen"
+                  },
+                  "nidoran m":{
+                    "hidden":true,
+                    "type":"poison",
+                    "name":"Nidoran M"
+                  },
+                  "":{
+                    "hidden":true,
+                    "type":"",
+                    "name":""
+                  }
                 };
 
 function checkInput(){
@@ -131,7 +192,7 @@ function addPokemon(){
   var td=document.createElement("td");
   td.setAttribute('class',pokemonList[key].type);
   td.setAttribute('id',pokemonList[key].name);
-  td.innerHTML="Nidoran M";
+  td.innerHTML=pokemonList[key].name;
   row.appendChild(td);
 }
 }
