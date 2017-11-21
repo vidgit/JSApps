@@ -187,12 +187,15 @@ function showAll(){
 }
 
 function addPokemon(){
-  row=document.getElementById('testRow');
+  var index=0;
   for(var key in pokemonList){
-  var td=document.createElement("td");
-  td.setAttribute('class',pokemonList[key].type);
-  td.setAttribute('id',pokemonList[key].name);
-  td.innerHTML=pokemonList[key].name;
-  row.appendChild(td);
-}
+    index=index%10;
+    row=document.getElementById('row'+index);
+    var td=document.createElement("td");
+    td.setAttribute('class',pokemonList[key].type);
+    td.setAttribute('id',pokemonList[key].name);
+    td.innerHTML=pokemonList[key].name;
+    row.appendChild(td);
+    index++;
+  }
 }
