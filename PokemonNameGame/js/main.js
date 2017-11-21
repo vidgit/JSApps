@@ -187,7 +187,43 @@ var pokemonList={"bulbasaur":{
                     "hidden":true,
                     "type":"fire",
                     "name":"Ninetails"
+                  },
+                  "jigglypuff":{
+                    "hidden":true,
+                    "type":"normal",
+                    "name":"Jiggypuff"
+                  },
+                  "wigglytuff":{
+                    "hidden":true,
+                    "type":"normal",
+                    "name":"Wigglytuff"
+                  },
+                  "zubat":{
+                    "hidden":true,
+                    "type":"poison",
+                    "name":"Zubat"
+                  },
+                  "golbat":{
+                    "hidden":true,
+                    "type":"poison",
+                    "name":"Golbat"
+                  },
+                  "oddish":{
+                    "hidden":true,
+                    "type":"grass",
+                    "name":"Oddish"
+                  },
+                  "gloom":{
+                    "hidden":true,
+                    "type":"grass",
+                    "name":"Gloom"
+                  },
+                  "vileplume":{
+                    "hidden":true,
+                    "type":"grass",
+                    "name":"Vileplume"
                   }
+
                   /**"":{
                     "hidden":true,
                     "type":"",
