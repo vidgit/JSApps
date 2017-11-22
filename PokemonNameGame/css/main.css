@@ -9,6 +9,16 @@ table{
         width: 300px;
         height: 50px;
 }
+button{
+  padding:10px;
+  font-size: 30px;
+  color:white;
+  background-color:#757A82;
+}
+
+button:hover{
+  background-color: black;
+}
 
 td{
   padding:10px;
