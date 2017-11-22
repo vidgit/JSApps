@@ -9,8 +9,10 @@
 </head>
 <body onload="addPokemon();startClock()">
   <h1>Pokemon Naming Game</h1>
-  <input class="text" style="font-size:40px" id="pokemonName" type="text" onkeypress="checkInput()">
-  <button onclick="showAll()">Give up!</button>
+  <div id="controls">
+    <input class="text" style="" id="pokemonName" type="text" onkeypress="checkInput()">
+    <button onclick="showAll()">Give up!</button>
+  </div>
   <section id="time" class="info">
     <div id="clock">
     </div>
