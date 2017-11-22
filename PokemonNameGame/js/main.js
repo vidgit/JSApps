@@ -222,6 +222,11 @@ var pokemonList={"bulbasaur":{
                     "hidden":true,
                     "type":"grass",
                     "name":"Vileplume"
+                  },
+                  "paras":{
+                    "hidden":true,
+                    "type":"poison",
+                    "name":"Paras"
                   }
 
                   /**"":{
