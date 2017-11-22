@@ -266,3 +266,16 @@ function addPokemon(){
     index++;
   }
 }
+
+function startClock(){
+  var seconds=10;
+  var updateTime=setInterval(function(){
+    console.log(seconds);
+  document.getElementById('clock').innerHTML=seconds+" seconds left";
+  seconds--;
+  if(seconds==0){
+    document.getElementById('clock').innerHTML="TIME UP!";
+  clearInterval(updateTime);
+}
+},1000);
+}

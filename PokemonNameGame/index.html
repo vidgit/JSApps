@@ -7,25 +7,13 @@
   <title>Pokemon Naming Game</title>
   <link rel="stylesheet" href="css\main.css">
 </head>
-<body onload="addPokemon()">
+<body onload="addPokemon();startClock()">
   <h1>Pokemon Naming Game</h1>
   <input class="text" style="font-size:40px" id="pokemonName" type="text" onkeypress="checkInput()">
   <button onclick="showAll()">Give up!</button>
-  <section id="time">
+  <section id="time" style="float:right;font-size:30px;padding-right:50px" >
     <div id="clock">
     </div>
-    <script>
-      var seconds=10;
-      var updateTime=setInterval(function(){
-      document.getElementById('clock').innerHTML=seconds+" seconds left";
-      seconds--;
-      if(seconds==0){
-        document.getElementById('clock').innerHTML="TIME UP!"
-      clearInterval(updateTime);
-    }
-    },1000);
-
-    </script>
   </section>
   <!--<button onclick="addPokemon()">Add</button>-->
   <table class="text">
