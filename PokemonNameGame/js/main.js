@@ -232,14 +232,20 @@ var pokemonList={"bulbasaur":{
                   */
                 };
 
+var correctNo=0;
+var unknownNo=Object.keys(pokemonList).length;
 function checkInput(){
   //console.log("buttonworks");
   name=document.getElementById('pokemonName').value;
   for(var key in pokemonList){
     if(key==name && pokemonList[key].hidden){
+      pokemonList[key].hidden=false;
       pokemon=document.getElementById(key);
       pokemon.classList.toggle("hide");
       document.getElementById('pokemonName').value="";
+      correctNo++;
+      unknownNo--;
+      showResult();
     }
   }
 
@@ -248,7 +254,11 @@ function showAll(){
         for(var key in pokemonList){
           if(pokemonList[key].hidden){
             pokemon=document.getElementById(key);
+            pokemonList[key].hidden=false;
             pokemon.classList.toggle("hide");
+          }
+          else{
+
           }
         }
 }
@@ -268,14 +278,20 @@ function addPokemon(){
 }
 
 function startClock(){
-  var seconds=10;
+  var seconds=1000000;
   var updateTime=setInterval(function(){
-    console.log(seconds);
+    //console.log(seconds);
   document.getElementById('clock').innerHTML=seconds+" seconds left";
   seconds--;
   if(seconds==0){
     document.getElementById('clock').innerHTML="TIME UP!";
+    showResult();
   clearInterval(updateTime);
 }
 },1000);
+}
+
+function showResult(){
+  var results=document.getElementById("results");
+  results.innerHTML="Found: " +correctNo+"\n Unknown: "+unknownNo;
 }

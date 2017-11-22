@@ -10,8 +10,8 @@
 <body onload="addPokemon();startClock()">
   <h1>Pokemon Naming Game</h1>
   <input class="text" style="font-size:40px" id="pokemonName" type="text" onkeypress="checkInput()">
-  <button onclick="toggleHideAll()">Give up!</button>
-  <section id="time">
+  <button onclick="showAll()">Give up!</button>
+  <section id="time" class="info">
     <div id="clock">
     </div>
   </section>
@@ -71,6 +71,12 @@
         <tr id="testRow"></tr>
     </tbody>
   </table>
+  <section class="info">
+    Results
+    <div id="results">
+
+    </div>
+  </section>
 <script src="js/main.js" charset="utf-8"></script>
 </body>
 
