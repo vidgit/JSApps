@@ -106,7 +106,7 @@ input{
   border-top:none;
   border-left: none;
   border-right: none;
-  border-color:black;
+  border-bottom:1px solid black;
   text-align: center;
 }
 #controls{
