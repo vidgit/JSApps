@@ -225,8 +225,13 @@ var pokemonList={"bulbasaur":{
                   },
                   "paras":{
                     "hidden":true,
-                    "type":"poison",
+                    "type":"bug",
                     "name":"Paras"
+                  },
+                  "parasect":{
+                    "hidden":true,
+                    "type":"bug",
+                    "name":"Parasect"
                   }
 
                   /**"":{
