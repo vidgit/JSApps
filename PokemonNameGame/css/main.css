@@ -95,3 +95,6 @@ td{
 .poison{
         background-color: #A040A0;
 }
+.missed{
+        border:2px solid red;
+}

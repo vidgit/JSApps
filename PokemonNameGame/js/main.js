@@ -256,6 +256,7 @@ function showAll(){
             pokemon=document.getElementById(key);
             pokemonList[key].hidden=false;
             pokemon.classList.toggle("hide");
+            pokemon.classList.add("missed");
           }
           else{
 
