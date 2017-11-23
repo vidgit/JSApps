@@ -9,5 +9,31 @@
 </head>
 <body>
     <button onclick="basicJS()">basic JS</button>
+
+    <h3>Difference between let and var</h3>
+    <p>let allows you to declare variables that are limited in scope to the block, statement,
+      or expression on which it is used.
+      This is unlike the var keyword, which defines a variable globally,
+      or locally to an entire function regardless of block scope.</p>
+
+     <section>
+       function varTest() {<br>
+        var x = 1;<br>
+        if (true) {<br>
+          var x = 2;  // same variable!<br>
+          console.log(x);  // 2<br>
+        }<br>
+        console.log(x);  // 2<br>
+      }<br>
+
+      function letTest() {<br>
+        let x = 1;<br>
+        if (true) {<br>
+          let x = 2;  // different variable<br>
+          console.log(x);  // 2<br>
+        }<br>
+        console.log(x);  // 1<br>
+      }<br>
+     </section>
 </body>
 </html>

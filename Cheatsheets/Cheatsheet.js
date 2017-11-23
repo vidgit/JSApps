@@ -17,9 +17,10 @@ function httprequest(){
 var xhr= new XMLHttpRequest();
 xhr.open("GET","https://www.somesite.com",false);
 xhr.send();
+console.log(xhr.status);
 }
 
-console.log(xhr.status);
+
 
 //Basic JS
 function basicJS(){
