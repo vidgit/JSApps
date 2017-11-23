@@ -8,21 +8,22 @@
   <link rel="stylesheet" href="css\main.css">
 </head>
 <body onload="addPokemon();startClock()">
-  <h1>Pokemon Naming Game</h1>
+  <h1 style="width:60%;margin:0px">Pokemon Naming Game</h1>
   <div id="controls">
     <input class="text" style="" id="pokemonName" type="text" onkeypress="checkInput()">
     <button onclick="showAll()">Give up!</button>
   </div>
   <aside id="time" class="info">
+    <h4>Time Left</h4>
     <div id="clock">
     </div>
   </aside>
   <br>
   <!--<button onclick="addPokemon()">Add</button>-->
-  <table class="text">
+  <table>
     <thead>
     </thead>
-    <tbody>
+    <tbody class="text">
         <tr id="row0">
                 <td id="" class="hide "></td>
         </tr>
@@ -74,7 +75,7 @@
         <tr id="testRow"></tr>
     </tbody>
   </table>
-  <aside class="info">
+  <aside class="info" style="margin-top:30px">
     Results
     <div id="results">
 

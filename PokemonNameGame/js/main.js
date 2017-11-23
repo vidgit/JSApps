@@ -286,13 +286,15 @@ function addPokemon(){
     row.appendChild(td);
     index++;
   }
+  var results=document.getElementById("results");
+  results.innerHTML="Found: " +correctNo+"\n Unknown: "+unknownNo;
 }
 
 function startClock(){
   var seconds=1000000;
   var updateTime=setInterval(function(){
     //console.log(seconds);
-  document.getElementById('clock').innerHTML=seconds+" seconds left";
+  document.getElementById('clock').innerHTML=seconds+" seconds";
   seconds--;
   if(seconds==0){
     document.getElementById('clock').innerHTML="TIME UP!";
