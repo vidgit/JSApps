@@ -232,6 +232,26 @@ var pokemonList={"bulbasaur":{
                     "hidden":true,
                     "type":"bug",
                     "name":"Parasect"
+                  },
+                  "venonat":{
+                    "hidden":true,
+                    "type":"bug",
+                    "name":"Venonat"
+                  },
+                  "venomoth":{
+                    "hidden":true,
+                    "type":"bug flying",
+                    "name":"Venomoth"
+                  },
+                  "diglett":{
+                    "hidden":true,
+                    "type":"ground",
+                    "name":"Diglett"
+                  },
+                  "dugtrio":{
+                    "hidden":true,
+                    "type":"ground",
+                    "name":"Dugtrio"
                   }
 
                   /**"":{
