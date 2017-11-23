@@ -4,8 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>JS Notes</title>
   <script src="Cheatsheet.js" charset="utf-8"></script>
+  <style>
+    #codeDiv{
+      background-color: #EFF0F1;
+      color:#6491AF;
+    }
+  </style>
 </head>
 <body>
     <button onclick="basicJS()">basic JS</button>
@@ -15,25 +21,26 @@
       or expression on which it is used.
       This is unlike the var keyword, which defines a variable globally,
       or locally to an entire function regardless of block scope.</p>
+      <div id="codeDiv">
+     <pre><code>
+       function varTest() {
+        var x = 1;
+        if (true) {
+          var x = 2;  // same variable!
+          console.log(x);  // 2
+        }
+        console.log(x);  // 2
+      }
 
-     <section>
-       function varTest() {<br>
-        var x = 1;<br>
-        if (true) {<br>
-          var x = 2;  // same variable!<br>
-          console.log(x);  // 2<br>
-        }<br>
-        console.log(x);  // 2<br>
-      }<br>
-
-      function letTest() {<br>
-        let x = 1;<br>
-        if (true) {<br>
-          let x = 2;  // different variable<br>
-          console.log(x);  // 2<br>
-        }<br>
-        console.log(x);  // 1<br>
-      }<br>
-     </section>
+      function letTest() {
+        let x = 1;
+        if (true) {
+          let x = 2;  // different variable
+          console.log(x);  // 2
+        }
+        console.log(x);  // 1
+      }
+    </code></pre>
+  </div>
 </body>
 </html>
