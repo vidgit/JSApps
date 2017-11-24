@@ -6,10 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Layout</title>
   <style>
-  div{
-  display: inline-block;
+  .controls{
     margin:0px;
     padding:0px;
+    float:left;
+  }
+  .info{
+    margin:0px;
+    padding:0px;
+    float:right;
   }
   body{
     background-color: black;
@@ -19,8 +24,11 @@
   </style>
 </head>
 <body>
-  <div style="width:59%;height:100px;background-color:red;">
+  <aside class="info" style="width:20%;height:650px;background-color:blue"></aside>
+  <div class="controls" style="width:40%;height:100px;background-color:red;">
   </div>
-  <div style="width:40%;height:100px;background-color:green;"></div>
+  <div class="controls" style="width:40%;height:100px;background-color:green;"></div>
+  <div class="controls" style="width:80%;height:550px;background-color:purple;"></div>
+  <div></div>
 </body>
 </html>
