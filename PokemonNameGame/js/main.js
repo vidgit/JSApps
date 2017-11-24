@@ -327,7 +327,7 @@ function addPokemon(){
     index++;
   }
   var results=document.getElementById("results");
-  results.innerHTML="Found: " +correctNo+"\n Unknown: "+unknownNo;
+  results.innerHTML="Found: " +correctNo+"\n<br> Unknown: "+unknownNo;
 }
 
 function startClock(){
@@ -346,5 +346,5 @@ function startClock(){
 
 function showResult(){
   var results=document.getElementById("results");
-  results.innerHTML="Found: " +correctNo+"\n Unknown: "+unknownNo;
+  results.innerHTML="Found: " +correctNo+"<br> Unknown: "+unknownNo;
 }

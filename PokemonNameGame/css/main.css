@@ -114,3 +114,8 @@ input{
   float:left;
   width:60%;
 }
+
+aside{
+  background-color: black;
+  color:white;
+}
