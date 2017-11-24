@@ -282,6 +282,16 @@ var pokemonList={"bulbasaur":{
                     "hidden":true,
                     "type":"fighting",
                     "name":"Primeape"
+                  },
+                  "growlithe":{
+                    "hidden":true,
+                    "type":"fire",
+                    "name":"Growlithe"
+                  },
+                  "arcanine":{
+                    "hidden":true,
+                    "type":"fire",
+                    "name":"Arcanine"
                   }
 
                   /**"":{
