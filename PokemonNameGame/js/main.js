@@ -252,6 +252,26 @@ var pokemonList={"bulbasaur":{
                     "hidden":true,
                     "type":"ground",
                     "name":"Dugtrio"
+                  },
+                  "meowth":{
+                    "hidden":true,
+                    "type":"normal",
+                    "name":"Meowth"
+                  },
+                  "persian":{
+                    "hidden":true,
+                    "type":"normal",
+                    "name":"Persian"
+                  },
+                  "psyduck":{
+                    "hidden":true,
+                    "type":"water",
+                    "name":"Psyduck"
+                  },
+                  "golduck":{
+                    "hidden":true,
+                    "type":"water psychic",
+                    "name":"Golduck"
                   }
 
                   /**"":{
