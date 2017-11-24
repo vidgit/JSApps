@@ -272,6 +272,16 @@ var pokemonList={"bulbasaur":{
                     "hidden":true,
                     "type":"water psychic",
                     "name":"Golduck"
+                  },
+                  "mankey":{
+                    "hidden":true,
+                    "type":"fighting",
+                    "name":"Mankey"
+                  },
+                  "primeape":{
+                    "hidden":true,
+                    "type":"fighting",
+                    "name":"Primeape"
                   }
 
                   /**"":{
