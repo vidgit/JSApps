@@ -308,6 +308,21 @@ var pokemonList={"bulbasaur":{
                     "type":"water",
                     "name":"Poliwrath"
                   },
+                  "abra":{
+                    "hidden":true,
+                    "type":"psychic",
+                    "name":"Abra"
+                  },
+                  "kadabra":{
+                    "hidden":true,
+                    "type":"psychic",
+                    "name":"Kadabra"
+                  },
+                  "alakazam":{
+                    "hidden":true,
+                    "type":"psychic",
+                    "name":"Alakazam"
+                  },
 
                   /**"":{
                     "hidden":true,
