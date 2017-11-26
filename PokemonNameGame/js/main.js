@@ -292,6 +292,11 @@ var pokemonList={"bulbasaur":{
                     "hidden":true,
                     "type":"fire",
                     "name":"Arcanine"
+                  },
+                  "poilwag":{
+                    "hidden":true,
+                    "type":"water",
+                    "name":"Poliwag"
                   }
 
                   /**"":{
