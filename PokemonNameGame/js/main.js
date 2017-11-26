@@ -297,7 +297,17 @@ var pokemonList={"bulbasaur":{
                     "hidden":true,
                     "type":"water",
                     "name":"Poliwag"
-                  }
+                  },
+                  "poliwhirl":{
+                    "hidden":true,
+                    "type":"water",
+                    "name":"Poliwhirl"
+                  },
+                  "poliwrath":{
+                    "hidden":true,
+                    "type":"water",
+                    "name":"Poliwrath"
+                  },
 
                   /**"":{
                     "hidden":true,
