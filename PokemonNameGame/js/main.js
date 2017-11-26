@@ -313,7 +313,7 @@ var pokemonList={"bulbasaur":{
                     "hidden":true,
                     "type":"",
                     "name":""
-                  }
+                  },
                   */
                 };
 
