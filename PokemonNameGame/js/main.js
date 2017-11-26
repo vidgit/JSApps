@@ -323,6 +323,11 @@ var pokemonList={"bulbasaur":{
                     "type":"psychic",
                     "name":"Alakazam"
                   },
+                  "machop":{
+                    "hidden":true,
+                    "type":"fighting",
+                    "name":"Machop"
+                  },
 
                   /**"":{
                     "hidden":true,
