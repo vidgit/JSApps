@@ -328,6 +328,11 @@ var pokemonList={"bulbasaur":{
                     "type":"fighting",
                     "name":"Machop"
                   },
+                  "machoke":{
+                    "hidden":true,
+                    "type":"fighting",
+                    "name":"Machoke"
+                  },
 
                   /**"":{
                     "hidden":true,
