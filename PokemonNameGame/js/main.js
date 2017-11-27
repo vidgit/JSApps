@@ -333,6 +333,12 @@ var pokemonList={"bulbasaur":{
                     "type":"fighting",
                     "name":"Machoke"
                   },
+                  "machamp":{
+                    "hidden":true,
+                    "type":"fighting",
+                    "name":"Machamp"
+                  },
+
 
                   /**"":{
                     "hidden":true,
