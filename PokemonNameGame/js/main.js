@@ -338,8 +338,21 @@ var pokemonList={"bulbasaur":{
                     "type":"fighting",
                     "name":"Machamp"
                   },
-
-
+                  "bellsprout":{
+                    "hidden":true,
+                    "type":"grass",
+                    "name":"Bellsprout"
+                  },
+                  "weepinbell":{
+                    "hidden":true,
+                    "type":"grass",
+                    "name":"Weepinbell"
+                  },
+                  "victreebell":{
+                    "hidden":true,
+                    "type":"grass poison",
+                    "name":"Victreebell"
+                  },
                   /**"":{
                     "hidden":true,
                     "type":"",
