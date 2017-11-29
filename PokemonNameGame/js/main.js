@@ -353,6 +353,16 @@ var pokemonList={"bulbasaur":{
                     "type":"grass poison",
                     "name":"Victreebell"
                   },
+                  "tentacool":{
+                    "hidden":true,
+                    "type":"water",
+                    "name":"Tentacool"
+                  },
+                  "tentacruel":{
+                    "hidden":true,
+                    "type":"water",
+                    "name":"Tentacruel"
+                  },
                   /**"":{
                     "hidden":true,
                     "type":"",
