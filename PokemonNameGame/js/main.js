@@ -353,6 +353,11 @@ var pokemonList={"bulbasaur":{
                     "type":"grass poison",
                     "name":"Victreebell"
                   },
+                  "geodude":{
+                    "hidden":true,
+                    "type":"rock",
+                    "name":"Geodude"
+                  },
                   /**"":{
                     "hidden":true,
                     "type":"",
