@@ -368,6 +368,11 @@ var pokemonList={"bulbasaur":{
                     "type":"rock",
                     "name":"Geodude"
                   },
+                  "graveler":{
+                    "hidden":true,
+                    "type":"rock",
+                    "name":"Graveler"
+                  }
                   /**"":{
                     "hidden":true,
                     "type":"",
