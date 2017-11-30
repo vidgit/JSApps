@@ -397,6 +397,7 @@ function checkInput(){
       pokemon=document.getElementById(key);
       pokemon.classList.toggle("hide");
       document.getElementById('pokemonName').value="";
+      document.getElementById('last').innerHTML=pokemonList[key].name;
       correctNo++;
       unknownNo--;
       showResult();
