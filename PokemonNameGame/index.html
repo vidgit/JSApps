@@ -10,14 +10,9 @@
 <body onload="addPokemon();startClock()">
   <h1 style="width:60%;margin:0px">Pokemon Naming Game</h1>
   <div id="controls">
-    <input class="text" style="" id="pokemonName" type="text" onkeypress="checkInput()">
-    <button onclick="showAll()">Give up!</button>
+    <input class="text" style="width:100%" id="pokemonName" type="text" onkeypress="checkInput()">
+    <button style="margin-left:50px;" onclick="showAll()">Give up!</button>
   </div>
-  <aside id="time" class="info">
-    <h4>Time Left</h4>
-    <div id="clock">
-    </div>
-  </aside>
   <br>
   <!--<button onclick="addPokemon()">Add</button>-->
   <table>
@@ -75,6 +70,11 @@
         <tr id="testRow"></tr>
     </tbody>
   </table>
+  <aside id="time" class="info">
+    <h4>Time Left</h4>
+    <div id="clock">
+    </div>
+  </aside>
   <aside class="info" style="margin-top:30px">
     Results
     <div id="results">
