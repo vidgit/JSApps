@@ -372,7 +372,12 @@ var pokemonList={"bulbasaur":{
                     "hidden":true,
                     "type":"rock",
                     "name":"Graveler"
-                  }
+                  },
+                  "Golem":{
+                    "hidden":true,
+                    "type":"rock",
+                    "name":"Golem"
+                  },
                   /**"":{
                     "hidden":true,
                     "type":"",
