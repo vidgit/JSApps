@@ -353,6 +353,7 @@ var pokemonList={"bulbasaur":{
                     "type":"grass poison",
                     "name":"Victreebell"
                   },
+<<<<<<< HEAD
                   "tentacool":{
                     "hidden":true,
                     "type":"water",
@@ -362,6 +363,12 @@ var pokemonList={"bulbasaur":{
                     "hidden":true,
                     "type":"water",
                     "name":"Tentacruel"
+=======
+                  "geodude":{
+                    "hidden":true,
+                    "type":"rock",
+                    "name":"Geodude"
+>>>>>>> 839acb120721e8b010a9f9542daa36d5d4fd1544
                   },
                   /**"":{
                     "hidden":true,
