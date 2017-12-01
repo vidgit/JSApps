@@ -406,6 +406,7 @@ function checkInput(){
 
 }
 function showAll(){
+        stopClock();
         for(var key in pokemonList){
           if(pokemonList[key].hidden){
             pokemon=document.getElementById(key);
@@ -435,7 +436,7 @@ function addPokemon(){
   results.innerHTML="Found: " +correctNo+"\n<br> Unknown: "+unknownNo;
 }
 
-function startClock(){
+/*function startClock(){
   var seconds=1000000;
   var updateTime=setInterval(function(){
     //console.log(seconds);
@@ -447,8 +448,24 @@ function startClock(){
   clearInterval(updateTime);
 }
 },1000);
-}
+}*/
 
+
+var seconds=1000000;
+var updateTime=setInterval(function(){
+  //console.log(seconds);
+document.getElementById('clock').innerHTML=seconds+" seconds";
+seconds--;
+if(seconds==0){
+  document.getElementById('clock').innerHTML="TIME UP!";
+  showResult();
+clearInterval(updateTime);
+}
+},1000);
+
+function stopClock(){
+  clearInterval(updateTime);
+}
 function showResult(){
   var results=document.getElementById("results");
   results.innerHTML="Found: " +correctNo+"<br> Unknown: "+unknownNo;
