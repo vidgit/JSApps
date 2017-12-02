@@ -106,7 +106,7 @@ td{
 }
 input:focus {
     outline: none;
-    border-bottom: 1px solid #2DAAE1;
+    border-bottom: 3px solid #2DAAE1;
 }
 input{
   font-size:40px;
