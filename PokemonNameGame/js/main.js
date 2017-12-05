@@ -373,7 +373,7 @@ var pokemonList={"bulbasaur":{
                     "type":"rock",
                     "name":"Graveler"
                   },
-                  "Golem":{
+                  "golem":{
                     "hidden":true,
                     "type":"rock",
                     "name":"Golem"
