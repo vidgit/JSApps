@@ -378,6 +378,11 @@ var pokemonList={"bulbasaur":{
                     "type":"rock",
                     "name":"Golem"
                   },
+                  "ponyta":{
+                    "hidden":true,
+                    "type":"fire",
+                    "name":"Ponyta"
+                  },
                   /**"":{
                     "hidden":true,
                     "type":"",
