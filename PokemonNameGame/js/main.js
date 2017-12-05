@@ -398,6 +398,11 @@ var pokemonList={"bulbasaur":{
                     "type":"water psychic",
                     "name":"Slowbro"
                   },
+                  "magnemite":{
+                    "hidden":true,
+                    "type":"electric",
+                    "name":"Magnemite"
+                  },
                   /**"":{
                     "hidden":true,
                     "type":"",
