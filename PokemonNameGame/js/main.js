@@ -413,11 +413,34 @@ var pokemonList={"bulbasaur":{
 
 var correctNo=0;
 var unknownNo=Object.keys(pokemonList).length;
-function checkInput(){
+var input = document.getElementById("pokemonName");
+var found=1;
+input.addEventListener("keypress", function(){
+  console.log('here');
+  if(found==2)
+  {
+    this.classList.remove("success");
+    this.classList.add("wrong");
+  }
+  else if(found==1){
+    this.classList.remove("wrong");
+    this.classList.remove("success");
+    this.classList.add("inprog");
+  }
+  else{
+    this.classList.remove("inprog");
+    this.classList.add("success");
+  }
+});
+function checkInput(e){
   //console.log("buttonworks");
+  found=1;
+  if(e.keyCode==13){
+
   name=document.getElementById('pokemonName').value;
   for(var key in pokemonList){
     if(key==name && pokemonList[key].hidden){
+      found=true;
       pokemonList[key].hidden=false;
       pokemon=document.getElementById(key);
       pokemon.classList.toggle("hide");
@@ -425,11 +448,16 @@ function checkInput(){
       document.getElementById('last').innerHTML=pokemonList[key].name;
       correctNo++;
       unknownNo--;
+      found=0;
       showResult();
     }
   }
-
+  if(found==1){
+    found=2;
+  }
 }
+}
+
 function showAll(){
         stopClock();
         for(var key in pokemonList){

@@ -104,9 +104,22 @@ td{
 .missed{
         border:2px solid red;
 }
+
 input:focus {
     outline: none;
+}
+
+.inprog{
+    outline: none;
     border-bottom: 3px solid #2DAAE2;
+}
+
+.wrong{
+  border-bottom: 3px solid red;
+}
+
+.success{
+  border-bottom: 3px solid green;
 }
 
 input{
