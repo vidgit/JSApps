@@ -383,6 +383,21 @@ var pokemonList={"bulbasaur":{
                     "type":"fire",
                     "name":"Ponyta"
                   },
+                  "rapidash":{
+                    "hidden":true,
+                    "type":"fire",
+                    "name":"Rapidash"
+                  },
+                  "slowpoke":{
+                    "hidden":true,
+                    "type":"water",
+                    "name":"Slowpoke"
+                  },
+                  "slowbro":{
+                    "hidden":true,
+                    "type":"water psychic",
+                    "name":"Slowbro"
+                  },
                   /**"":{
                     "hidden":true,
                     "type":"",
