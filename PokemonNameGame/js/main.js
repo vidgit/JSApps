@@ -531,6 +531,7 @@ seconds--;
 if(seconds==0){
   document.getElementById('clock').innerHTML="TIME UP!";
   showResult();
+  alert("Game Over!\nResult:\nFound: "+correctNo+"\nUnknown: "+unknownNo);
 clearInterval(updateTime);
 }
 },1000);
