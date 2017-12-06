@@ -420,54 +420,60 @@ var correctNo=0;
 var unknownNo=Object.keys(pokemonList).length;
 var input = document.getElementById("pokemonName");
 var found=1;
+var gameOn=true;
 input.addEventListener("keypress", function(){
-  console.log('here');
-  if(found==2)
-  {
-    this.classList.remove("success");
-    this.classList.add("wrong");
-  }
-  else if(found==1){
-    this.classList.remove("wrong");
-    this.classList.remove("success");
-    this.classList.add("inprog");
-  }
-  else{
-    this.classList.remove("inprog");
-    this.classList.add("success");
-  }
-});
-function checkInput(e){
-  //console.log("buttonworks");
-  found=1;
-  if(e.keyCode==13){
-
-  name=document.getElementById('pokemonName').value;
-  for(var key in pokemonList){
-    if(key==name && pokemonList[key].hidden){
-      found=true;
-      pokemonList[key].hidden=false;
-      pokemon=document.getElementById(key);
-      pokemon.classList.toggle("hide");
-      document.getElementById('pokemonName').value="";
-      document.getElementById('last').innerHTML=pokemonList[key].name;
-      correctNo++;
-      unknownNo--;
-      if(unknownNo==0){
-        gameClear();
-      }
-      found=0;
-      showResult();
+  if(gameOn){
+    if(found==2)
+    {
+      this.classList.remove("success");
+      this.classList.add("wrong");
+    }
+    else if(found==1){
+      this.classList.remove("wrong");
+      this.classList.remove("success");
+      this.classList.add("inprog");
+    }
+    else{
+      this.classList.remove("inprog");
+      this.classList.add("success");
     }
   }
-  if(found==1){
-    found=2;
+});
+
+function checkInput(e){
+  //console.log("buttonworks");
+  if(gameOn){
+      found=1;
+      if(e.keyCode==13){
+
+      name=document.getElementById('pokemonName').value;
+      for(var key in pokemonList){
+        if(key==name && pokemonList[key].hidden){
+          found=true;
+          pokemonList[key].hidden=false;
+          pokemon=document.getElementById(key);
+          pokemon.classList.toggle("hide");
+          document.getElementById('pokemonName').value="";
+          document.getElementById('last').innerHTML=pokemonList[key].name;
+          correctNo++;
+          unknownNo--;
+          if(unknownNo==0){
+            gameClear();
+          }
+          found=0;
+          showResult();
+        }
+      }
+      if(found==1){
+        found=2;
+      }
+    }
   }
-}
 }
 
 function gameClear(){
     stopClock();
+    gameOn=false;
     alert("YOU WIN!");
 }
 
@@ -517,7 +523,7 @@ function addPokemon(){
 }*/
 
 
-var seconds=1000000;
+var seconds=600;
 var updateTime=setInterval(function(){
   //console.log(seconds);
 document.getElementById('clock').innerHTML=seconds+" seconds";
@@ -531,7 +537,9 @@ clearInterval(updateTime);
 
 function stopClock(){
   clearInterval(updateTime);
+  gameOn=false;
 }
+
 function showResult(){
   var results=document.getElementById("results");
   results.innerHTML="Found: " +correctNo+"<br> Unknown: "+unknownNo;
