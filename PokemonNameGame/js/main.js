@@ -403,6 +403,11 @@ var pokemonList={"bulbasaur":{
                     "type":"electric",
                     "name":"Magnemite"
                   },
+                  "Magneton":{
+                    "hidden":true,
+                    "type":"electric",
+                    "name":"Magneton"
+                  },
                   /**"":{
                     "hidden":true,
                     "type":"",
