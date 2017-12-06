@@ -448,6 +448,9 @@ function checkInput(e){
       document.getElementById('last').innerHTML=pokemonList[key].name;
       correctNo++;
       unknownNo--;
+      if(unknownNo==0){
+        gameClear();
+      }
       found=0;
       showResult();
     }
@@ -456,6 +459,11 @@ function checkInput(e){
     found=2;
   }
 }
+}
+
+function gameClear(){
+    stopClock();
+    alert("YOU WIN!");
 }
 
 function showAll(){
