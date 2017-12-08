@@ -508,21 +508,6 @@ function addPokemon(){
   results.innerHTML="Found: " +correctNo+"\n<br> Unknown: "+unknownNo;
 }
 
-/*function startClock(){
-  var seconds=1000000;
-  var updateTime=setInterval(function(){
-    //console.log(seconds);
-  document.getElementById('clock').innerHTML=seconds+" seconds";
-  seconds--;
-  if(seconds==0){
-    document.getElementById('clock').innerHTML="TIME UP!";
-    showResult();
-  clearInterval(updateTime);
-}
-},1000);
-}*/
-
-
 var seconds=600;
 var updateTime=setInterval(function(){
   //console.log(seconds);
