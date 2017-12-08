@@ -440,6 +440,10 @@ input.addEventListener("keypress", function(){
   }
 });
 
+function endGame(){
+  var inBar=document.getElementById('pokemonName');
+  inBar.disabled=true;
+}
 function checkInput(e){
   //console.log("buttonworks");
   if(gameOn){
@@ -508,7 +512,7 @@ function addPokemon(){
   results.innerHTML="Found: " +correctNo+"\n<br> Unknown: "+unknownNo;
 }
 
-var seconds=600;
+var seconds=6;
 var updateTime=setInterval(function(){
   //console.log(seconds);
 document.getElementById('clock').innerHTML=seconds+" seconds";
@@ -517,6 +521,7 @@ if(seconds==0){
   document.getElementById('clock').innerHTML="TIME UP!";
   showResult();
   alert("Game Over!\nResult:\nFound: "+correctNo+"\nUnknown: "+unknownNo);
+  gameOn=false;
 clearInterval(updateTime);
 }
 },1000);
