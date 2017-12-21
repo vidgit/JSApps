@@ -4,12 +4,13 @@ console.log(arr);
 for (var i in arr) {
   console.log(i+"\n");
 }
+
 function truthValue(){
-for(var i=0;i<arr.length;i++){
-  if(arr[i])
-    console.log(true);
-  else {
-    console.log(false);
+  for(var i=0;i<arr.length;i++){
+    if(arr[i])
+      console.log(true);
+    else {
+      console.log(false);
+    }
   }
-}
 }
