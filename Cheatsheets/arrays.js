@@ -14,3 +14,17 @@ function truthValue(){
     }
   }
 }
+
+function forIn(){
+  console.log('For In');
+  for(var v in arr){
+    console.log(v);
+  }
+}
+
+function forOf(){
+  console.log('For of');
+  for (var v of arr) {
+    console.log(v);
+  }
+}
