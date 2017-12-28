@@ -15,3 +15,13 @@ class Rectangle{
     this.b=b;
   }
 }
+
+Rectangle.prototype.area=function(){
+  return this.l*this.b;
+}
+
+class Square{
+  constructor(a){
+    super(a,a);
+  }
+}
