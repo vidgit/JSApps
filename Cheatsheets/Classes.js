@@ -20,8 +20,10 @@ Rectangle.prototype.area=function(){
   return this.l*this.b;
 }
 
-class Square{
+class Square extends Rectangle{
   constructor(a){
     super(a,a);
   }
 }
+
+console.log(new Square(5).area());
