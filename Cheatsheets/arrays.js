@@ -28,3 +28,30 @@ function forOf(){
     console.log(v);
   }
 }
+
+//MAP
+
+var srr=['one','two','three','four','five'];
+var len=srr.map(function(s){
+  return s.length;
+},0);
+console.log("Length:",len);
+len=srr.map(s=>s.length);
+console.log("Length:",len);
+
+
+//FILTER
+
+arr=[1,2,3,4,5];
+var greaterThan3=arr.filter(function(i){
+  return i>3;
+},0);
+console.log("Is greater than 3:",greaterThan3);
+greaterThan3=arr.filter(i=>i>3);
+console.log("Is greater than 3:",greaterThan3);
+
+
+var evenOdd = arr.map(i=>i%2==0?i*2:i*3);
+
+
+console.log('Even Odd:',evenOdd);
